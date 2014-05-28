@@ -70,13 +70,18 @@ func main() {
 		"o":      "o",
 		"p":      "d",
 		"u":      "n",
+		"s":      "s",
 	}
 
 	// fmt.Printf("%s -> %s", "\u0021", flips["\u0021"])
 	buffer := bytes.Buffer{}
 	for _, arg := range os.Args[1:] {
 		for _, ch := range arg {
-			buffer.WriteString(flips[string(ch)])
+			str := flips[string(ch)]
+			if str == "" {
+				str = string(ch)
+			}
+			buffer.WriteString(str)
 		}
 		buffer.WriteString(" ")
 	}
