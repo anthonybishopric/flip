@@ -5,4 +5,4 @@
 
 # Install
 
-  go get github.com/anthonybishopric/flip
+    go get github.com/anthonybishopric/flip
