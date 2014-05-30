@@ -5,4 +5,11 @@
 
 # Install
 
+With Go:
+
     go get github.com/anthonybishopric/flip
+
+With Homebrew
+
+    brew tap xaviershay/self
+    brew install flip
