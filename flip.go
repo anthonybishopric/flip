@@ -71,6 +71,7 @@ func main() {
 		"p":      "d",
 		"u":      "n",
 		"s":      "s",
+		"q":      "b",
 	}
 
 	// fmt.Printf("%s -> %s", "\u0021", flips["\u0021"])
